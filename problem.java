@@ -38,7 +38,5 @@ public class problem {
         } else {
             System.out.println("\nThe positive integer entered by you is an Odd number.");
         }
-
-        scan.close();
     }
 }
