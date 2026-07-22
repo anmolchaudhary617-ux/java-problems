@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+@SuppressWarnings("resource")
 public class secondLargestinArray {
     public static void main(String[] args) {
         /*
@@ -54,7 +55,5 @@ public class secondLargestinArray {
         else{
             System.out.println("\nThere is no second largest distinct element in the array.");
         }   
-        
-        scan.close();
     }
 }
