@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-public class Shopping_cart {
+public class ShoppingCart {
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
         /*
          * This is a shopping cart program which gives you the final total price
@@ -27,7 +28,8 @@ public class Shopping_cart {
             System.out.print("\nYou have bought " + item_quantity + " " + item + "s");
         }
 
-        System.out.println("\nYour total is " + "$" + item_quantity * item_price);
+        System.out.println("""
+                           Your total is $""" + item_quantity * item_price);
 
         scan.close();
     }

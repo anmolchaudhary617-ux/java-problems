@@ -71,20 +71,29 @@ java-problems/
 
 ## Completed Programs
 
+### Basics
+- Apply Cramer Rule
+- Hello World
+- MethodOverloadingDemo 
+
 ### Numbers
 
 - Strong Number Finder
 - Number Analyzer
+- Number Analyzer 2
 - Quadratic Formula Solver
 
 ### Strings
 
 - String Utility Toolkit
+- String Problem 1
 
 ### Patterns
 
 - Floyd's Triangle
 - Smart Pattern Generator
+- Smart Pattern Generator 2
+- Hollow Square Patter
 
 ### Mini Projects
 

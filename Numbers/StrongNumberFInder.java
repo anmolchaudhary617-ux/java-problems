@@ -1,6 +1,7 @@
+
 import java.util.Scanner;
 
-class strongNumberProgram {
+public class StrongNumberFinder {
 
     public static void main(String[] args) {
         /*Write a Java program that:

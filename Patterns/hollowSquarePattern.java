@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class hollowSquarePattern{
+public class HollowSquarePattern{
     public static void main(String[] args) {
         /* 
         1 1 1 1 1

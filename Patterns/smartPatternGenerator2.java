@@ -1,5 +1,5 @@
 import  java.util.Scanner;
-public class smartPatternGenerator2{
+public class SmartPatternGenerator2{
 public static void main() {
     /*
     1         1

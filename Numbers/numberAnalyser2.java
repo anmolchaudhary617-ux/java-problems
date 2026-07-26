@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class numberAnalyser2 {
+public class NumberAnalyser2 {
     public static void main(String[] args) {
         /*
         ===== Number Analyzer =====

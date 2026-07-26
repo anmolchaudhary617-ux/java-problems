@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class numberAnalyser{
+public class NumberAnalyser{
     public static void main(String[] args) {
         /*
             Input  => 153
