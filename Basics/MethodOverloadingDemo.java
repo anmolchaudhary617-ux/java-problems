@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class MethodOverloadingDemo {
     public static void main(String[] args) {
-
+        @SuppressWarnings("resource")
         /*
         calculate(int a, int b)	-> Return the sum of a and b
         calculate(double a, double b) -> Return the product of a and b
