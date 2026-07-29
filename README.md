@@ -91,6 +91,7 @@ java-problems/
 ### Patterns
 
 - Floyd's Triangle
+- Odd Number Pattern
 - Smart Pattern Generator
 - Smart Pattern Generator 2
 - Hollow Square Patter
@@ -99,6 +100,11 @@ java-problems/
 
 - Weight Converter
 - Shopping Cart
+- Banking Program
+- Number Guessing Game
+
+### Arrays
+- Second Largest In An Array
 
 More programs will be added regularly as I continue learning Java.
 

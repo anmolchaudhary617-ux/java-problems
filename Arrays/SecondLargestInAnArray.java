@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 @SuppressWarnings("resource")
-public class secondLargestinArray {
+public class SecondLargestInAnArray {
     public static void main(String[] args) {
         /*
          * Given an integer array arr of size n, find the second

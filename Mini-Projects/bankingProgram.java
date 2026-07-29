@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-public class bankingProgram {
+public class BankingProgram {
+
     public static void main(String[] args) {
         /*
         * ===== BANKING MENU =====
@@ -17,32 +18,23 @@ public class bankingProgram {
         Scanner scan = new Scanner(System.in);
 
 
-       while(true){
-        printMenu();
-       
-       int userChoice;
-
-       System.out.print("\nEnter your choice (1-4): ");
-       userChoice = scan.nextInt();
-
-       if(userChoice == 1){
-        checkBalance(balance);
-        }
-        else if(userChoice == 2){
-        amounttoDeposit(balance);
-        }
-        else if(userChoice == 3){
-        amounttoWithdraw(balance);
-        }
-        else if(userChoice == 4){
-            System.out.println("Thank you for using the banking program!");
-            break;
+        OUTER:
+        while (true) {
+            printMenu();
+            int userChoice;
+            System.out.print("\nEnter your choice (1-4): ");
+            userChoice = scan.nextInt();
+            switch (userChoice) {
+                case 1 -> checkBalance(balance);
+                case 2 -> amounttoDeposit(balance);
+                case 3 -> amounttoWithdraw(balance);
+                case 4 -> {
+                    System.out.println("Thank you for using the banking program!");
+                    break OUTER;
+                }
+                default -> System.out.println("Invalid choice. Please try again.");
             }
-        else{
-            System.out.println("Invalid choice. Please try again.");
         }
-    }
-    scan.close(); 
 }
 static void printMenu(){
     for(int i = 0; i < 15; i++){
@@ -80,11 +72,11 @@ static int amounttoDeposit(int balance){
         amountDeposit = scanner.nextInt();
         balance += amountDeposit;
         printLine();
-        scanner.close();
         return amountDeposit;
 }
 
-static int amounttoWithdraw(int balance){
+    @SuppressWarnings("UnusedAssignment")
+    static int amounttoWithdraw(int balance){
         Scanner scanner = new Scanner(System.in);
         int amountWithdraw;
         System.out.print("Enter amount to be withdrawn: ");
@@ -96,7 +88,6 @@ static int amounttoWithdraw(int balance){
             System.out.println("Balance LOW! Cannot withdraw!!");
             }
         printLine();
-        scanner.close();
         return amountWithdraw;
 }
 }    
