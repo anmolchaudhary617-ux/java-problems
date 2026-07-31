@@ -14,3 +14,7 @@ target/
 
 # IntelliJ module files
 *.iml
+
+*.png
+
+WeightConverter.java

@@ -82,11 +82,17 @@ java-problems/
 - Number Analyzer
 - Number Analyzer 2
 - Quadratic Formula Solver
+- Check If Prime
+- Check If Palindrome
+- Count Odd Even
 
 ### Strings
 
 - String Utility Toolkit
 - String Problem 1
+- String Probelm 2
+- String Problem 3
+- StringBuilder
 
 ### Patterns
 
@@ -102,10 +108,16 @@ java-problems/
 - Shopping Cart
 - Banking Program
 - Number Guessing Game
+- Compound Int Calculator
 
 ### Arrays
 - Second Largest In An Array
+- Check If Array is Sorted
 
+### OOP
+- Constructor Overloading Demo
+- TVDemo
+- 
 More programs will be added regularly as I continue learning Java.
 
 ---
